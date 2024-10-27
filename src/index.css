@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lalezar&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lalezar" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+
+}
+.App
+{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+body {
+  background: #232323;
+  padding: 0;
+  margin: 0;
+  cursor: default;
+  direction: ltr;
+  text-align: left;
+  width: 100vw !important;
+  height: 100vh !important;
+}

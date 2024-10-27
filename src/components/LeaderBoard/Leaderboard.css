@@ -1,0 +1,45 @@
+.leaderboard {
+    width: 100%;
+    background-color: #efcc19; /* Matching yellow background */
+    padding: 10px;
+    border: 3px solid #333; /* Darker border to match the game style */
+    border-radius: 20px;
+    font-family: 'Press Start 2P', sans-serif; /* Retro, pixelated font */
+    color: #000;
+    text-align: center;
+  }
+  
+  .leaderboard h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    background-color: #dedede;
+    border: 2px solid #333;
+    border-radius: 4px;
+  }
+  
+  .rank {
+    color: #555; /* Slightly darker shade for rank */
+  }
+  
+  .name {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .points {
+    color: #007bff; /* Blue for points */
+  }
+  
