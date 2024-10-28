@@ -10,15 +10,15 @@ const SignIn = () => {
     myHeaders.append('Content-Type', 'application/json');
 
     const formData = new FormData();
-    formData.append('phone_number', '09902753066');
-    formData.append('password', 'Mr5568###');
+    formData.append('phone_number', phone_number);
+    formData.append('password', password);
 
     const response = await fetch(
       'https://tetris-back.chbk.app/accounts/api/token/',
       {
         method: 'POST',
         body: formData,
-        mode: 'cors',
+        mode: 'no-cors',
         headers :myHeaders
       },
     );
